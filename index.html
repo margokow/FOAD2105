@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV</title>
+    <link rel="stylesheet" href="index_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class ="desktop" id="accueil" href="#accueil">Accueil</a>
+            <a class ="desktop" href="#faq">Questions</a>
+
+            <div class="burger-menu" id="burger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="mobile-nav" id="mobile-nav">
+                <a class= "mobile" href="#accueil">Accueil</a>
+                <a class ="mobile" href="#faq">Questions</a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="btn-position">
+            <button id="toggle-btn">Change mon thème !</button>
+        </div>
+        <div class="center">
+            <h1>Bienvenue</h1> 
+            <img src="avatar.png">
+        </div>
+    </section>
+    <section>
+        <div id="faq" class="faq">
+            <div class="accordion-item">
+                <div class="accordion-header">Qui suis-je ? <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span></div>
+                <div class="accordion-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">Mon expérience <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span></div>
+                <div class="accordion-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">Mes compétences <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span></div>
+                <div class="accordion-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">Me contacter <span class="arrow"><i class="fa-solid fa-chevron-down"></i></span></div>
+                <div class="accordion-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav class="footer">
+            <a class="footer" id="accueil" href="#accueil">Accueil</a>
+            <a class="footer" href="#faq">Questions</a>
+        </nav>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
